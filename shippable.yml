@@ -41,4 +41,4 @@ integrations:
       platform: "Node.js"
       application_name: node-test-app
       env_name: node-test-env-2
-      region: us-west-1
+      region: us-east-1
