@@ -31,13 +31,13 @@ integrations:
       type: aws
       target: ebs_paas
       platform: "Node.js"
-      application_name: node-test-app
+      application_name: node-test-app-not-exist
       env_name: node-test-env-1
       region: us-east-1
     - integrationName: "aws-test"
       type: aws
       target: ebs_paas
       platform: "Node.js"
-      application_name: node-test-app
+      application_name: node-test-app-not-exist
       env_name: node-test-env-2
       region: us-east-2
