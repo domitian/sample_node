@@ -34,6 +34,10 @@ integrations:
       application_name: node-test-app-not-exist
       env_name: node-test-env-1
       region: us-east-1
+      branches:
+        only:
+          - eb-deploy-devonly
+      
     - integrationName: "aws-test"
       type: aws
       target: ebs_paas
@@ -41,3 +45,6 @@ integrations:
       application_name: node-test-app-not-exist
       env_name: node-test-env-2
       region: us-east-2
+      branches:
+        except:
+          - eb-deploy-devonly
