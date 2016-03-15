@@ -32,14 +32,12 @@ integrations:
       target: ebs_paas
       platform: "Node.js"
       application_name: sample-test-app
-      s3_bucket_name: amazing-bucket
-      env_name: sample-test-env-1
+      env_name: node-test-env-1
       region: us-east-1
     - integrationName: "aws-test"
       type: aws
       target: ebs_paas
       platform: "Node.js"
       application_name: sample-test-app
-      s3_bucket_name: amazing-bucket
-      env_name: sample-test-env-2
+      env_name: node-test-env-2
       region: us-east-2
